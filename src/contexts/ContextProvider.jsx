@@ -5,7 +5,7 @@ export const StateContext = createContext();
 
 const ContextProvider = ({ children }) => {
   const [utilities, setUtilities] = useState({
-    carColor: '#fff',
+    carColor: '#004E1A',
     editMode: false,
     environment: 'kloppenheim_06_puresky_4k.exr',
     Model: 'audiCoupe',
