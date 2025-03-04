@@ -12,7 +12,7 @@ import Building from './Building';
 import StageLights from './StageLights';
 import PhaseLighting from './phaseLighting';
 
-import { StateContext } from '../../contexts/ContextProvider';
+import { StateContext } from '../contexts/ContextProvider';
 import { useEffect, useContext } from 'react';
 import Stage from './Stage';
 

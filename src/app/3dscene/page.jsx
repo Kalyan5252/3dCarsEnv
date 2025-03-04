@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import ContextProvider from '../../../contexts/ContextProvider';
+import ContextProvider from '../../contexts/ContextProvider';
 
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';

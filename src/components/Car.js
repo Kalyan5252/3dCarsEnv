@@ -2,7 +2,7 @@ import React, { useEffect, useContext, useState } from 'react';
 import { useLoader } from '@react-three/fiber';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { Mesh } from 'three';
-import { StateContext } from '../../contexts/ContextProvider';
+import { StateContext } from '../contexts/ContextProvider';
 import { TextureLoader } from 'three';
 const Car = () => {
   const { utilities, setUtilities } = useContext(StateContext);

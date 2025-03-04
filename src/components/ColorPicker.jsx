@@ -1,7 +1,7 @@
 'use client';
 import React, { useContext } from 'react';
 import { SketchPicker } from 'react-color';
-import { StateContext } from '../../contexts/ContextProvider';
+import { StateContext } from '../contexts/ContextProvider';
 
 const ColorPicker = () => {
   const { utilities, setUtilities } = useContext(StateContext);

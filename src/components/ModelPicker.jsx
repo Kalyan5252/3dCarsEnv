@@ -1,5 +1,5 @@
 import React from 'react';
-import { StateContext } from '../../contexts/ContextProvider';
+import { StateContext } from '../contexts/ContextProvider';
 import { useEffect, useContext, useState } from 'react';
 
 import Slide from '@mui/material/Slide';

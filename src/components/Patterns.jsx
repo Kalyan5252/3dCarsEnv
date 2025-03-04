@@ -6,7 +6,7 @@ import Slide from '@mui/material/Slide';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Image from 'next/image';
 
-import { StateContext } from '../../contexts/ContextProvider';
+import { StateContext } from '../contexts/ContextProvider';
 
 const PATTERN_DATA = [
   { path: 'texture_car.jpeg', label: 'Design 1' },

@@ -6,7 +6,7 @@ import {
   LinearEncoding,
   sRGBEncoding,
 } from '@react-three/drei/helpers/deprecated';
-import { StateContext } from '../../contexts/ContextProvider';
+import { StateContext } from '../contexts/ContextProvider';
 
 const Ground = () => {
   const { utilities } = useContext(StateContext);

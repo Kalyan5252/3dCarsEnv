@@ -5,7 +5,7 @@ import EnvSelector from './EnvSelector';
 import ModelPicker from './ModelPicker';
 import Patterns from './Patterns';
 import GroundSelector from './GroundSelector';
-import { StateContext } from '../../contexts/ContextProvider';
+import { StateContext } from '../contexts/ContextProvider';
 import { useEffect, useContext, useState } from 'react';
 import Link from 'next/link';
 
